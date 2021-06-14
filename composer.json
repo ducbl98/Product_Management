@@ -1,0 +1,22 @@
+{
+  "name": "vendor_name/Product_Control",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "shin_bae",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\Controllers\\": "apps/controllers",
+      "App\\Models\\":"apps/models",
+      "App\\Services\\": "apps/services"
+    }
+  },
+  "require": {
+    "ext-pdo": "*"
+  }
+}
